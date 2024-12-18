@@ -1,47 +1,47 @@
-# DỰ ÁN Thương Mại Điện Tử - Backend Laravel, Frontend React
+# E-Commerce Project - Backend Laravel, Frontend React
 
-## 1. Giới Thiệu Dự Án
-- **Tên dự án**: Hệ Thống Thương Mại Điện Tử
+## 1. Project Introduction
+- **Project Name**: E-Commerce System
 - **Backend**: Laravel 10
 - **Frontend**: ReactJS (Vite)
-- **Cơ sở dữ liệu**: MySQL
-- **Chức năng chính**:
-  - Quản lý sản phẩm, danh mục
-  - Hệ thống giỏ hàng và thanh toán
-  - Xử lý đơn hàng và trạng thái giao hàng
-  - Phân quyền tài khoản người dùng (Admin, User)
-  - API để ReactJS kết nối với backend
+- **Database**: MySQL
+- **Main Features**:
+  - Manage products, categories
+  - Shopping cart and payment system
+  - Order processing and delivery status
+  - User account permissions (Admin, User)
+  - API for ReactJS to connect with the backend
 
 ---
 
-## 2. Cấu Trúc Thư Mục
+## 2. Directory Structure
 
 ### 2.1. Backend - Laravel
-- **Thư mục gốc**: `backend`
-- **Cấu trúc thư mục**:
+- **Root Directory**: `backend`
+- **Directory Structure**:
   ```plaintext
   backend/
-  |-- app/               # Code logic chính
+  |-- app/                  # App Logic
   |   |-- Http/
-  |       |-- Controllers/   # Controllers
-  |       |-- Requests/      # Request Validation
-  |-- database/          # Migration, Seeders
-  |-- routes/            # Định tuyến API
-  |-- .env               # Cấu hình môi trường
+  |       |-- Controllers/   # Controller Logic
+  |       |-- Requests/      # Request Logic
+  |-- database/          # Database Structure
+  |-- routes/            # API Routing
+  |-- .env               # Environment Configuration
   |-- composer.json      # Laravel Dependencies
   ```
 
 ### 2.2. Frontend - ReactJS
-- **Thư mục gốc**: `frontend`
-- **Cấu trúc thư mục**:
+- **Root Directory**: `frontend`
+- **Directory Structure**:
   ```plaintext
   frontend/
   |-- src/
-  |   |-- components/      # Components tái sử dụng
-  |   |-- pages/           # Trang giao diện
-  |   |-- services/        # API Services kết nối Backend
-  |   |-- hooks/           # Custom Hooks (nếu có)
-  |-- public/              # File tĩnh
-  |-- package.json         # React Dependencies
-  |-- vite.config.js       # Cấu hình Vite
+  |   |-- components/       # ReactJS Components
+  |   |-- pages/            # ReactJS Pages
+  |   |-- services/         # Service Logic
+  |   |-- hooks/            # Hook Logic
+  |-- public/              # Static Files
+  |-- package.json         # ReactJS Dependencies
+  |-- vite.config.js       # Vite Config
   ```
