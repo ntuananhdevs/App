@@ -17,10 +17,10 @@
 ## 2. Cấu Trúc Thư Mục
 
 ### 2.1. Backend - Laravel
-- **Thư mục gốc**: `ecommerce-backend`
+- **Thư mục gốc**: `backend`
 - **Cấu trúc thư mục**:
   ```plaintext
-  ecommerce-backend/
+  backend/
   |-- app/               # Code logic chính
   |   |-- Http/
   |       |-- Controllers/   # Controllers
@@ -32,10 +32,10 @@
   ```
 
 ### 2.2. Frontend - ReactJS
-- **Thư mục gốc**: `ecommerce-frontend`
+- **Thư mục gốc**: `frontend`
 - **Cấu trúc thư mục**:
   ```plaintext
-  ecommerce-frontend/
+  frontend/
   |-- src/
   |   |-- components/      # Components tái sử dụng
   |   |-- pages/           # Trang giao diện
