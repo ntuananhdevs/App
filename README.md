@@ -1,4 +1,4 @@
-# E-Commerce Project - Backend Laravel, Frontend React
+# E-Commerce Project - Backend Laravel, Frontend Vue 3
 
 ## 1. Project Introduction
 - **Project Name**: E-Commerce System
