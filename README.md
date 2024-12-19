@@ -3,7 +3,7 @@
 ## 1. Project Introduction
 - **Project Name**: E-Commerce System
 - **Backend**: Laravel 10
-- **Frontend**: ReactJS (Vite)
+- **Frontend**: Vue 3 (Composition API)
 - **Database**: MySQL
 - **Main Features**:
   - Manage products, categories
@@ -31,17 +31,16 @@
   |-- composer.json      # Laravel Dependencies
   ```
 
-### 2.2. Frontend - ReactJS
+### 2.2. Frontend - Vue 3
 - **Root Directory**: `frontend`
 - **Directory Structure**:
   ```plaintext
   frontend/
-  |-- src/
-  |   |-- components/       # ReactJS Components
-  |   |-- pages/            # ReactJS Pages
-  |   |-- services/         # Service Logic
-  |   |-- hooks/            # Hook Logic
-  |-- public/              # Static Files
-  |-- package.json         # ReactJS Dependencies
-  |-- vite.config.js       # Vite Config
+  |-- public/            # Static Files
+  |-- src/               # Vue Components
+  |-- .env               # Environment Configuration
+  |-- package.json      # Vue Dependencies
+  |-- vite.config.js    # Vite Configuration  
+  |-- index.html         # HTML Template
+  |-- main.js            # Vue Entry Point
   ```
