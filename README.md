@@ -1,9 +1,9 @@
-# E-Commerce Project - Backend Laravel, Frontend Vue 3
+# E-Commerce Project - Backend Laravel, Frontend Vue 3 (Vite)
 
 ## 1. Project Introduction
 - **Project Name**: E-Commerce System
 - **Backend**: Laravel 10
-- **Frontend**: Vue 3 (Composition API)
+- **Frontend**: Vue 3 (Vite)
 - **Database**: MySQL
 - **Main Features**:
   - Manage products, categories
@@ -31,16 +31,21 @@
   |-- composer.json      # Laravel Dependencies
   ```
 
-### 2.2. Client - Vue 3
+### 2.2. Client - Vue 3 (Vite) 
 - **Root Directory**: `Client`
 - **Directory Structure**:
-  ```plaintext
   Client/
-  |-- public/            # Static Files
-  |-- src/               # Vue Components
-  |-- .env               # Environment Configuration
-  |-- package.json      # Vue Dependencies
-  |-- vite.config.js    # Vite Configuration  
-  |-- index.html         # HTML Template
-  |-- main.js            # Vue Entry Point
+|-- public/            # Static Files
+|-- src/
+|   |-- assets/        # Styling and Assets
+|   |-- components/    # Reusable Vue Components
+|   |-- router/        # Vue Router Setup
+|   |-- store/         # State Management
+|   |-- views/         # Page-Level Vue Components
+|   |-- App.vue        # Main Vue Component
+|   |-- main.js        # Vue Entry Point
+|-- .env               # Environment Configuration
+|-- package.json       # Vue Dependencies
+|-- vite.config.js     # Vite Configuration  
+|-- index.html         # HTML Template
   ```
