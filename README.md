@@ -34,7 +34,8 @@
 ### 2.2. Client - Vue 3 (Vite) 
 - **Root Directory**: `Client`
 - **Directory Structure**:
-  Client/
+```plaintext
+client/
 |-- public/            # Static Files
 |-- src/
 |   |-- assets/        # Styling and Assets
