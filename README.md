@@ -1,6 +1,7 @@
 # E-Commerce Project - Backend Laravel, Frontend Vue 3 (Vite)
 
 ## 1. Project Introduction
+
 - **Project Name**: E-Commerce System
 - **Backend**: Laravel 10
 - **Frontend**: Vue 3 (Vite)
@@ -17,6 +18,7 @@
 ## 2. Directory Structure
 
 ### 2.1. Backend - Laravel
+
 - **Root Directory**: `backend`
 - **Directory Structure**:
   ```plaintext
@@ -31,22 +33,24 @@
   |-- composer.json      # Laravel Dependencies
   ```
 
-### 2.2. Client - Vue 3 (Vite) 
+### 2.2. Client - Vue 3 (Vite)
+
 - **Root Directory**: `Client`
 - **Directory Structure**:
-```plaintext
-client/
-|-- public/            # Static Files
-|-- src/
-|   |-- assets/        # Styling and Assets
-|   |-- components/    # Reusable Vue Components
-|   |-- router/        # Vue Router Setup
-|   |-- store/         # State Management
-|   |-- views/         # Page-Level Vue Components
-|   |-- App.vue        # Main Vue Component
-|   |-- main.js        # Vue Entry Point
-|-- .env               # Environment Configuration
-|-- package.json       # Vue Dependencies
-|-- vite.config.js     # Vite Configuration  
-|-- index.html         # HTML Template
+
+  ```plaintext
+  client/
+  |-- public/            # Static Files
+  |-- src/
+  |   |-- assets/        # Styling and Assets
+  |   |-- components/    # Reusable Vue Components
+  |   |-- router/        # Vue Router Setup
+  |   |-- store/         # State Management
+  |   |-- views/         # Page-Level Vue Components
+  |   |-- App.vue        # Main Vue Component
+  |   |-- main.js        # Vue Entry Point
+  |-- .env               # Environment Configuration
+  |-- package.json       # Vue Dependencies
+  |-- vite.config.js     # Vite Configuration
+  |-- index.html         # HTML Template
   ```
