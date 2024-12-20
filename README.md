@@ -31,11 +31,11 @@
   |-- composer.json      # Laravel Dependencies
   ```
 
-### 2.2. Frontend - Vue 3
-- **Root Directory**: `frontend`
+### 2.2. Client - Vue 3
+- **Root Directory**: `Client`
 - **Directory Structure**:
   ```plaintext
-  frontend/
+  Client/
   |-- public/            # Static Files
   |-- src/               # Vue Components
   |-- .env               # Environment Configuration
