@@ -1,13 +1,14 @@
-<template>
-    <div class="bg-gradient-to-r from-cyan-500 to-blue-500 h-screen flex justify-center items-center">
-        <h1 class="text-6xl font-bold text-white tracking-widest">Welcome to  Home Page</h1>
-    </div>
-</template>
-
 <script setup>
-
+import FooterViews from '../../components/Client/FooterView.vue'
+import Nav from '../../components/Client/NavView.vue'
+import Header from '../../components/Client/BannerView.vue'
+import Main  from '../../components/Client/HomePage.vue'
 </script>
 
-<style lang="scss" scoped>
+<template>
+    <Nav />
+    <Header />
+    <Main />
+    <FooterViews class="mt-10" />
+</template>
 
-</style>
